@@ -4,16 +4,33 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="navbar">
+      <div className="navbar_icons">
+        <div className="navbar_icons_instagram"/>
+        <div className="navbar_icons_weblancer"/>
+        <div className="navbar_icons_telegram"/>
+      </div>
+      <div className="navbar_logo">Vladyslav Taimasov</div>
+      <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="nav">
+            <ul class="menu">
+                <li>Home</li>
+                <li>About</li>
+                <li>Portfolio</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
       </header>
       <div className="background">
       <div className="background_avatar"></div>
       </div>
       <div className="container">
       <div className="home">
-      <h1>Vladislav from Ternopil</h1>
+      <h1>Vladyslav Taimasov from Ternopil</h1>
       <h3> Hi! I'm Vladislav, a Videographer/Editor and Motion Graphic Designer. </h3>
       <p>With over 3 years of strong experience in capturing, editing and producing professional material such as camera footage, dialogue, sound files, and graphics, with an in-depth understanding of motion graphics, digital software and video editing equipment.</p>
+      <div className="rounded_avatar"></div>
       </div>
       <div className="about">
       <div className="about_text">
@@ -25,7 +42,8 @@ function App() {
       </div>
       <div className="projects">
       <ul className="videos">
-      <li className="video-responsive">
+      <li className="video-container">
+        <div className="video-responsive">
         <iframe
           width="560"
           height="315"
@@ -35,8 +53,16 @@ function App() {
           allowFullScreen
           title="Project 1"
         />
+        </div>
+        <div className="video-hashtags">
+        <div className="video-hashtag">fonkmetal</div>
+        <div className="video-hashtag">music</div>
+        <div className="video-hashtag">inssstrrrrumental</div>
+        <div className="video-hashtag">video</div>
+        </div>
       </li>
-      <li className="video-responsive">
+      <li className="video-container">
+        <div className="video-responsive">
         <iframe
           width="560"
           height="315"
@@ -46,8 +72,16 @@ function App() {
           allowFullScreen
           title="Project 2"
         />
+        </div>
+        <div className="video-hashtags">
+        <div className="video-hashtag">fonk</div>
+        <div className="video-hashtag">music</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">video</div>
+        </div>
       </li>
-      <li className="video-responsive">
+      <li className="video-container">
+        <div className="video-responsive">
         <iframe
           width="560"
           height="315"
@@ -57,8 +91,17 @@ function App() {
           allowFullScreen
           title="Project 3"
         />
+        </div>
+        <div className="video-hashtags">
+        <div className="video-hashtag">fonk</div>
+        <div className="video-hashtag">music</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">video</div>
+        <div className="video-hashtag">history</div>
+        </div>
       </li>
-      <li className="video-responsive">
+      <li className="video-container">
+        <div className="video-responsive">
         <iframe
           width="560"
           height="315"
@@ -68,8 +111,16 @@ function App() {
           allowFullScreen
           title="Project 4"
         />
+        </div>
+        <div className="video-hashtags">
+        <div className="video-hashtag">fonk</div>
+        <div className="video-hashtag">music</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">video</div>
+        </div>
       </li>
-      <li className="video-responsive">
+      <li className="video-container">
+        <div className="video-responsive">
         <iframe
           width="560"
           height="315"
@@ -79,8 +130,16 @@ function App() {
           allowFullScreen
           title="Project 5"
         />
+        </div>
+        <div className="video-hashtags">
+        <div className="video-hashtag">fonk</div>
+        <div className="video-hashtag">music</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">video</div>
+        </div>
       </li>
-      <li className="video-responsive">
+      <li className="video-container">
+        <div className="video-responsive">
         <iframe
           width="560"
           height="315"
@@ -90,8 +149,16 @@ function App() {
           allowFullScreen
           title="Project 6"
         />
+        </div>
+        <div className="video-hashtags">
+        <div className="video-hashtag">fonk</div>
+        <div className="video-hashtag">music</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">video</div>
+        </div>
       </li>
-      <li className="video-responsive">
+      <li className="video-container">
+        <div className="video-responsive">
         <iframe
           width="560"
           height="315"
@@ -101,8 +168,18 @@ function App() {
           allowFullScreen
           title="Project 4"
         />
+        </div>
+        <div className="video-hashtags">
+        <div className="video-hashtag">fonk</div>
+        <div className="video-hashtag">music</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">video</div>
+        <div className="video-hashtag">history</div>
+        <div className="video-hashtag">video</div>
+        </div>
       </li>
-      <li className="video-responsive">
+      <li className="video-container">
+        <div className="video-responsive">
         <iframe
           width="560"
           height="315"
@@ -112,8 +189,68 @@ function App() {
           allowFullScreen
           title="Project 5"
         />
+        </div>
+        <div className="video-hashtags">
+        <div className="video-hashtag">fonk</div>
+        <div className="video-hashtag">music</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">video</div>
+        <div className="video-hashtag">history</div>
+        <div className="video-hashtag">video</div>
+        <div className="video-hashtag">history</div>
+        <div className="video-hashtag">fonk</div>
+        <div className="video-hashtag">music</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">video</div>
+        <div className="video-hashtag">history</div>
+        <div className="video-hashtag">video</div>
+        <div className="video-hashtag">history</div>
+        <div className="video-hashtag">fonk</div>
+        <div className="video-hashtag">music</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">video</div>
+        <div className="video-hashtag">history</div>
+        <div className="video-hashtag">video</div>
+        <div className="video-hashtag">history</div>
+        <div className="video-hashtag">fonk</div>
+        <div className="video-hashtag">music</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">video</div>
+        <div className="video-hashtag">history</div>
+        <div className="video-hashtag">video</div>
+        <div className="video-hashtag">history</div>
+        <div className="video-hashtag">fonk</div>
+        <div className="video-hashtag">music</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">video</div>
+        <div className="video-hashtag">history</div>
+        <div className="video-hashtag">video</div>
+        <div className="video-hashtag">history</div>
+        <div className="video-hashtag">fonk</div>
+        <div className="video-hashtag">music</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">video</div>
+        <div className="video-hashtag">history</div>
+        <div className="video-hashtag">video</div>
+        <div className="video-hashtag">history</div>
+        <div className="video-hashtag">fonk</div>
+        <div className="video-hashtag">music</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">video</div>
+        <div className="video-hashtag">history</div>
+        <div className="video-hashtag">video</div>
+        <div className="video-hashtag">history</div>
+        <div className="video-hashtag">fonk</div>
+        <div className="video-hashtag">music</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">video</div>
+        <div className="video-hashtag">history</div>
+        <div className="video-hashtag">video</div>
+        <div className="video-hashtag">history</div>
+        </div>
       </li>
-      <li className="video-responsive">
+      <li className="video-container">
+        <div className="video-responsive">
         <iframe
           width="560"
           height="315"
@@ -123,6 +260,13 @@ function App() {
           allowFullScreen
           title="Project 6"
         />
+        </div>
+        <div className="video-hashtags">
+        <div className="video-hashtag">fonk</div>
+        <div className="video-hashtag">music</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">video</div>
+        </div>
       </li>
       </ul>
       </div>
@@ -132,7 +276,13 @@ function App() {
       <div className="email"><a href="mailto:vladternopil@gmail.com"><p>E-mail: vladternopil@gmail.com</p></a></div>
       <div> <p>Phone: +380-99-666-77-14</p></div>
       </div>
-      <footer className="App-footer">
+      <footer className="footer">
+      <div>Copyright © 2023. All rights are reserved</div>
+      <div className="navbar_icons">
+        <div className="navbar_icons_instagram"/>
+        <div className="navbar_icons_weblancer"/>
+        <div className="navbar_icons_telegram"/>
+      </div>
       </footer>
       </div>
     </div>
