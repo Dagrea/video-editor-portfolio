@@ -57,7 +57,8 @@ function App() {
         <div className="video-hashtags">
         <div className="video-hashtag">fonkmetal</div>
         <div className="video-hashtag">music</div>
-        <div className="video-hashtag">inssstrrrrumental</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">instrumental</div>
         <div className="video-hashtag">video</div>
         </div>
       </li>
@@ -173,6 +174,7 @@ function App() {
         <div className="video-hashtag">fonk</div>
         <div className="video-hashtag">music</div>
         <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">instrumental</div>
         <div className="video-hashtag">video</div>
         <div className="video-hashtag">history</div>
         <div className="video-hashtag">video</div>
@@ -198,6 +200,10 @@ function App() {
         <div className="video-hashtag">history</div>
         <div className="video-hashtag">video</div>
         <div className="video-hashtag">history</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">video</div>
         <div className="video-hashtag">fonk</div>
         <div className="video-hashtag">music</div>
         <div className="video-hashtag">instrumental</div>
@@ -205,6 +211,9 @@ function App() {
         <div className="video-hashtag">history</div>
         <div className="video-hashtag">video</div>
         <div className="video-hashtag">history</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">instrumental</div>
         <div className="video-hashtag">fonk</div>
         <div className="video-hashtag">music</div>
         <div className="video-hashtag">instrumental</div>
@@ -212,6 +221,9 @@ function App() {
         <div className="video-hashtag">history</div>
         <div className="video-hashtag">video</div>
         <div className="video-hashtag">history</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">instrumental</div>
         <div className="video-hashtag">fonk</div>
         <div className="video-hashtag">music</div>
         <div className="video-hashtag">instrumental</div>
@@ -219,6 +231,9 @@ function App() {
         <div className="video-hashtag">history</div>
         <div className="video-hashtag">video</div>
         <div className="video-hashtag">history</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">instrumental</div>
+        <div className="video-hashtag">instrumental</div>
         <div className="video-hashtag">fonk</div>
         <div className="video-hashtag">music</div>
         <div className="video-hashtag">instrumental</div>
@@ -226,27 +241,9 @@ function App() {
         <div className="video-hashtag">history</div>
         <div className="video-hashtag">video</div>
         <div className="video-hashtag">history</div>
-        <div className="video-hashtag">fonk</div>
-        <div className="video-hashtag">music</div>
         <div className="video-hashtag">instrumental</div>
-        <div className="video-hashtag">video</div>
-        <div className="video-hashtag">history</div>
-        <div className="video-hashtag">video</div>
-        <div className="video-hashtag">history</div>
-        <div className="video-hashtag">fonk</div>
-        <div className="video-hashtag">music</div>
         <div className="video-hashtag">instrumental</div>
-        <div className="video-hashtag">video</div>
-        <div className="video-hashtag">history</div>
-        <div className="video-hashtag">video</div>
-        <div className="video-hashtag">history</div>
-        <div className="video-hashtag">fonk</div>
-        <div className="video-hashtag">music</div>
         <div className="video-hashtag">instrumental</div>
-        <div className="video-hashtag">video</div>
-        <div className="video-hashtag">history</div>
-        <div className="video-hashtag">video</div>
-        <div className="video-hashtag">history</div>
         </div>
       </li>
       <li className="video-container">

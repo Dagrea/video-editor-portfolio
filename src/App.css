@@ -51,7 +51,7 @@ ul {
 }
 
 .navbar_icons_instagram {
-  background-image: url("assets/instagram.png");
+  background-image: url("assets/instagram.svg");
   height: 2.5rem;
   width: 2.5rem;
   margin: 5px;
@@ -60,7 +60,7 @@ ul {
 }
 
 .navbar_icons_weblancer {
-  background-image: url("assets/telegram.png");
+  background-image: url("assets/telegram.svg");
   height: 2.5rem;
   width: 2.5rem;
   margin: 5px;
@@ -128,6 +128,7 @@ ul {
   height: 100vh;
   width: 100vw;
   background-color: #1B2125;
+  opacity: 0.8;
   transition: max-height 0.5s 0s linear;
 }
 
@@ -164,7 +165,7 @@ ul {
 
 .side-menu:checked ~ * .menu {
   visibility: visible;
-  opacity: 1;
+  opacity: .8;
   transition: opacity 1000ms linear;
 }
 
@@ -203,9 +204,6 @@ ul {
   height: 100%;
   z-index: -1;
 }
- background_avatar:hover {
-    filter: contrast(100%);
-  }
 
 .container {
   width: 100%;
@@ -282,14 +280,14 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 450px;
-  width: 650px;
+  min-height: 400px;
+  width: 600px;
   height: auto;
   margin: 20px;
-  padding: 25px;
-  background-color: #fff;
+  padding: 5px;
+  background-color: transparent;
   border-radius: 50px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
 .video-hashtags {
@@ -299,12 +297,13 @@ ul {
   justify-content: center;
   align-items: center;
   width: 90%;
+  font-size: calc(10px + 0.390625vw)
 }
 .video-hashtag {
   background-color: #282c34;
   border-radius: 10px;
   margin: 5px;
-  padding: 10px 15px;
+  padding: 2px 5px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
