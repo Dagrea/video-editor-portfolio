@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/video-editor-portfolio/static/css/main.a3ac7a88.css",
-    "main.js": "/video-editor-portfolio/static/js/main.d2aa80fb.js",
+    "main.css": "/video-editor-portfolio/static/css/main.06a8eabc.css",
+    "main.js": "/video-editor-portfolio/static/js/main.6ff57463.js",
     "static/js/787.376af779.chunk.js": "/video-editor-portfolio/static/js/787.376af779.chunk.js",
     "static/media/avatar.jpg": "/video-editor-portfolio/static/media/avatar.5c690d9211b1a993e7df.jpg",
     "static/media/avatar1.jpg": "/video-editor-portfolio/static/media/avatar1.e8a48f41b24089da37b2.jpg",
@@ -10,12 +10,12 @@
     "static/media/logo.svg": "/video-editor-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/video-editor-portfolio/index.html",
     "static/media/telegram.svg": "/video-editor-portfolio/static/media/telegram.a1f24d54e716cdc2a9d5.svg",
-    "main.a3ac7a88.css.map": "/video-editor-portfolio/static/css/main.a3ac7a88.css.map",
-    "main.d2aa80fb.js.map": "/video-editor-portfolio/static/js/main.d2aa80fb.js.map",
+    "main.06a8eabc.css.map": "/video-editor-portfolio/static/css/main.06a8eabc.css.map",
+    "main.6ff57463.js.map": "/video-editor-portfolio/static/js/main.6ff57463.js.map",
     "787.376af779.chunk.js.map": "/video-editor-portfolio/static/js/787.376af779.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3ac7a88.css",
-    "static/js/main.d2aa80fb.js"
+    "static/css/main.06a8eabc.css",
+    "static/js/main.6ff57463.js"
   ]
 }
