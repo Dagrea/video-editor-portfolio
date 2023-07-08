@@ -87,7 +87,8 @@ ul {
 .hamb {
   cursor: pointer;
   float: right;
-  padding: 40px 20px;
+  padding: 30px 10px;
+  transition: all 0.25s;
   z-index: 10;
 }
 
@@ -122,14 +123,15 @@ ul {
   display: block;
   position: fixed;
   top: 0;
-  left: 0;
-  max-width: 100%;
-  max-height: 0%;
+  right: 0;
+  max-width: 0%;
+  max-height: 100%;
   height: 100vh;
-  width: 100vw;
-  background-color: #1B2125;
+  width: 30vw;
+  background-color: #fff;
   opacity: 0.8;
-  transition: max-height 0.5s 0s linear;
+  transition: max-width 0.5s 0s linear;
+  z-index: 8;
 }
 
 .menu {
@@ -139,18 +141,18 @@ ul {
   justify-content: center;
   align-content: center;
   align-items: center;
-  height: 100%;
+  height: 100vh;
   opacity: 0;
   transition: visibility 0s linear 1000ms, opacity 1000ms;
 }
 .menu li {
   display: block;
   padding: 0px 0px 30px 0px;
-  color: #C0C0C0;
+  color: #000;
   font-size: calc(15px + 1vw);
 }
 .menu li:hover {
-  color: #FFF;
+  font-size: calc(25px + 1vw);
 }
 
 .side-menu {
@@ -158,17 +160,22 @@ ul {
 }
 
 .side-menu:checked ~ nav {
-  max-height: 100%;
-  height: height;
-  transition: max-height 0.5s 0s linear;
+  max-width: 100%;
+  transition: max-width 0.5s 0s linear;
 }
 
 .side-menu:checked ~ * .menu {
   visibility: visible;
-  opacity: .8;
+  opacity: 1;
   transition: opacity 1000ms linear;
 }
 
+.side-menu:checked ~ .hamb {
+  border: 2px solid #000;
+  border-radius: 50%;
+  transition: all 0.25s;
+  transform: rotate(360deg);
+}
 .side-menu:checked ~ .hamb .hamb-line {
   z-index: 1;
   background: transparent;
@@ -176,11 +183,13 @@ ul {
 
 .side-menu:checked ~ .hamb .hamb-line::before {
   transform: rotate(-45deg);
+  background: #000;
   top: 0;
 }
 
 .side-menu:checked ~ .hamb .hamb-line::after {
   transform: rotate(45deg);
+  background: #000;
   top: 0;
 }
 
@@ -338,5 +347,4 @@ ul {
   min-height: 107px;
   background-image: linear-gradient(to right, #a807b4, #cb109f, #e405f5);
   box-shadow: 0px -2px 5px 5px black;
-  z-index: 6;
 }
