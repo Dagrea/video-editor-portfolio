@@ -49,6 +49,11 @@ ul {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 480px) {
+  .navbar_icons {
+    display: none;
+  }
+}
 
 .navbar_icons_instagram {
   background-image: url("assets/instagram.svg");
@@ -137,6 +142,17 @@ ul {
   transition: max-width 0.5s 0s linear;
   z-index: 8;
 }
+@media (max-width: 768px) {
+  .nav {
+    width: 50vw;
+  }
+}
+@media (max-width: 640px) {
+  .nav {
+    width: 100vw;
+    opacity: 0.95;
+  }
+}
 
 .menu {
   visibility: hidden;
@@ -211,12 +227,18 @@ ul {
   background-image: url('assets/avatar.jpg');
   background-repeat: no-repeat;
   background-size: cover; 
+  background-position: center;
   float: right;
   filter: contrast(70%);
   height: 100vh;
   width: 50%;
   height: 100%;
   z-index: -1;
+}
+@media (max-width: 768px) {
+  .background_avatar {
+     width: 100%;
+  }
 }
 
 .container {
@@ -237,6 +259,12 @@ ul {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 768px) {
+  .home {
+     max-width: 100%;
+     padding: 0px 20px;
+  }
+}
 .home h3{ 
   margin-top: 2rem;
 }
@@ -256,6 +284,11 @@ ul {
   left: 50%;
   transform: translate(-50%, 0%);
 }
+@media (max-width: 768px) {
+  .rounded_avatar {
+    display: none;
+  }
+}
 .about {
   display: flex;
   flex-direction: column;
@@ -264,12 +297,18 @@ ul {
   background-color: #282c34;
   min-height: 100vh;
   width: 100%;
+  padding: 20px;
 }
 .about p{
   margin-top: 4rem;
 }
 .about_text {
   width: 60%;
+}
+@media (max-width: 480px) {
+  .about_text {
+    width: 100%;
+  }
 }
 .projects {
   display: flex;
@@ -304,6 +343,38 @@ ul {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .video-container {
+    min-width: 600px;
+    width: auto;
+    margin: 20px 0px;
+  }
+}
+@media (max-width: 640px) {
+  .video-container {
+    min-width: 320px;
+    width: auto;
+  }
+  .video-container iframe {
+    width: auto;
+  }
+}
+@media (max-width: 480px) {
+  .video-container {
+     width: 300px;
+  }
+  .video-container iframe {
+    width: 280px;
+  }
+}
+.video-responsive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  max-width:600px;
+  height: 350px;
+}
 .video-hashtags {
   display: flex;
   flex-direction: row;
@@ -321,14 +392,6 @@ ul {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
-.video-responsive {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  width:600px;
-  height: 350px;
-}
 
 .contact {
   max-width: 50%;
@@ -338,6 +401,19 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 768px) {
+  .contact {
+    max-width: 60%;
+    align-self: end;
+  }
+}
+@media (max-width: 480px) {
+  .contact {
+    max-width: 100%;
+    align-self: center;
+    padding: 0px;
+  }
 }
 .contact h3{ 
   margin-top: 2rem;
