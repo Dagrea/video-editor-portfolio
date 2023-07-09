@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/video-editor-portfolio/static/css/main.028b115b.css",
-    "main.js": "/video-editor-portfolio/static/js/main.bfe2f8a5.js",
+    "main.css": "/video-editor-portfolio/static/css/main.5f60de8a.css",
+    "main.js": "/video-editor-portfolio/static/js/main.8277123d.js",
     "reactPlayerYouTube.js": "/video-editor-portfolio/static/js/reactPlayerYouTube.7cc15bf0.chunk.js",
     "reactPlayerSoundCloud.js": "/video-editor-portfolio/static/js/reactPlayerSoundCloud.21c13ce4.chunk.js",
     "reactPlayerVimeo.js": "/video-editor-portfolio/static/js/reactPlayerVimeo.5ae5b829.chunk.js",
@@ -20,11 +20,10 @@
     "static/media/avatar1.jpg": "/video-editor-portfolio/static/media/avatar1.e8a48f41b24089da37b2.jpg",
     "static/media/weblancer.png": "/video-editor-portfolio/static/media/weblancer.555c505340473bfad0e5.png",
     "static/media/instagram.svg": "/video-editor-portfolio/static/media/instagram.4aa8347837ff2f3d6cc4.svg",
-    "static/media/logo.svg": "/video-editor-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/video-editor-portfolio/index.html",
     "static/media/telegram.svg": "/video-editor-portfolio/static/media/telegram.a1f24d54e716cdc2a9d5.svg",
-    "main.028b115b.css.map": "/video-editor-portfolio/static/css/main.028b115b.css.map",
-    "main.bfe2f8a5.js.map": "/video-editor-portfolio/static/js/main.bfe2f8a5.js.map",
+    "main.5f60de8a.css.map": "/video-editor-portfolio/static/css/main.5f60de8a.css.map",
+    "main.8277123d.js.map": "/video-editor-portfolio/static/js/main.8277123d.js.map",
     "reactPlayerYouTube.7cc15bf0.chunk.js.map": "/video-editor-portfolio/static/js/reactPlayerYouTube.7cc15bf0.chunk.js.map",
     "reactPlayerSoundCloud.21c13ce4.chunk.js.map": "/video-editor-portfolio/static/js/reactPlayerSoundCloud.21c13ce4.chunk.js.map",
     "reactPlayerVimeo.5ae5b829.chunk.js.map": "/video-editor-portfolio/static/js/reactPlayerVimeo.5ae5b829.chunk.js.map",
@@ -41,7 +40,7 @@
     "787.376af779.chunk.js.map": "/video-editor-portfolio/static/js/787.376af779.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.028b115b.css",
-    "static/js/main.bfe2f8a5.js"
+    "static/css/main.5f60de8a.css",
+    "static/js/main.8277123d.js"
   ]
 }
