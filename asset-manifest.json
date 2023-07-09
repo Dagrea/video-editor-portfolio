@@ -1,7 +1,20 @@
 {
   "files": {
-    "main.css": "/video-editor-portfolio/static/css/main.06a8eabc.css",
-    "main.js": "/video-editor-portfolio/static/js/main.6ff57463.js",
+    "main.css": "/video-editor-portfolio/static/css/main.028b115b.css",
+    "main.js": "/video-editor-portfolio/static/js/main.bfe2f8a5.js",
+    "reactPlayerYouTube.js": "/video-editor-portfolio/static/js/reactPlayerYouTube.7cc15bf0.chunk.js",
+    "reactPlayerSoundCloud.js": "/video-editor-portfolio/static/js/reactPlayerSoundCloud.21c13ce4.chunk.js",
+    "reactPlayerVimeo.js": "/video-editor-portfolio/static/js/reactPlayerVimeo.5ae5b829.chunk.js",
+    "reactPlayerFacebook.js": "/video-editor-portfolio/static/js/reactPlayerFacebook.4ff06692.chunk.js",
+    "reactPlayerStreamable.js": "/video-editor-portfolio/static/js/reactPlayerStreamable.4e32bde4.chunk.js",
+    "reactPlayerWistia.js": "/video-editor-portfolio/static/js/reactPlayerWistia.236831fc.chunk.js",
+    "reactPlayerTwitch.js": "/video-editor-portfolio/static/js/reactPlayerTwitch.0e6cfb5e.chunk.js",
+    "reactPlayerDailyMotion.js": "/video-editor-portfolio/static/js/reactPlayerDailyMotion.a21457a9.chunk.js",
+    "reactPlayerMixcloud.js": "/video-editor-portfolio/static/js/reactPlayerMixcloud.6beddff0.chunk.js",
+    "reactPlayerVidyard.js": "/video-editor-portfolio/static/js/reactPlayerVidyard.46749bd7.chunk.js",
+    "reactPlayerKaltura.js": "/video-editor-portfolio/static/js/reactPlayerKaltura.fb71c4c9.chunk.js",
+    "reactPlayerFilePlayer.js": "/video-editor-portfolio/static/js/reactPlayerFilePlayer.da56ff8c.chunk.js",
+    "reactPlayerPreview.js": "/video-editor-portfolio/static/js/reactPlayerPreview.6ed3ac84.chunk.js",
     "static/js/787.376af779.chunk.js": "/video-editor-portfolio/static/js/787.376af779.chunk.js",
     "static/media/avatar.jpg": "/video-editor-portfolio/static/media/avatar.5c690d9211b1a993e7df.jpg",
     "static/media/avatar1.jpg": "/video-editor-portfolio/static/media/avatar1.e8a48f41b24089da37b2.jpg",
@@ -10,12 +23,25 @@
     "static/media/logo.svg": "/video-editor-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/video-editor-portfolio/index.html",
     "static/media/telegram.svg": "/video-editor-portfolio/static/media/telegram.a1f24d54e716cdc2a9d5.svg",
-    "main.06a8eabc.css.map": "/video-editor-portfolio/static/css/main.06a8eabc.css.map",
-    "main.6ff57463.js.map": "/video-editor-portfolio/static/js/main.6ff57463.js.map",
+    "main.028b115b.css.map": "/video-editor-portfolio/static/css/main.028b115b.css.map",
+    "main.bfe2f8a5.js.map": "/video-editor-portfolio/static/js/main.bfe2f8a5.js.map",
+    "reactPlayerYouTube.7cc15bf0.chunk.js.map": "/video-editor-portfolio/static/js/reactPlayerYouTube.7cc15bf0.chunk.js.map",
+    "reactPlayerSoundCloud.21c13ce4.chunk.js.map": "/video-editor-portfolio/static/js/reactPlayerSoundCloud.21c13ce4.chunk.js.map",
+    "reactPlayerVimeo.5ae5b829.chunk.js.map": "/video-editor-portfolio/static/js/reactPlayerVimeo.5ae5b829.chunk.js.map",
+    "reactPlayerFacebook.4ff06692.chunk.js.map": "/video-editor-portfolio/static/js/reactPlayerFacebook.4ff06692.chunk.js.map",
+    "reactPlayerStreamable.4e32bde4.chunk.js.map": "/video-editor-portfolio/static/js/reactPlayerStreamable.4e32bde4.chunk.js.map",
+    "reactPlayerWistia.236831fc.chunk.js.map": "/video-editor-portfolio/static/js/reactPlayerWistia.236831fc.chunk.js.map",
+    "reactPlayerTwitch.0e6cfb5e.chunk.js.map": "/video-editor-portfolio/static/js/reactPlayerTwitch.0e6cfb5e.chunk.js.map",
+    "reactPlayerDailyMotion.a21457a9.chunk.js.map": "/video-editor-portfolio/static/js/reactPlayerDailyMotion.a21457a9.chunk.js.map",
+    "reactPlayerMixcloud.6beddff0.chunk.js.map": "/video-editor-portfolio/static/js/reactPlayerMixcloud.6beddff0.chunk.js.map",
+    "reactPlayerVidyard.46749bd7.chunk.js.map": "/video-editor-portfolio/static/js/reactPlayerVidyard.46749bd7.chunk.js.map",
+    "reactPlayerKaltura.fb71c4c9.chunk.js.map": "/video-editor-portfolio/static/js/reactPlayerKaltura.fb71c4c9.chunk.js.map",
+    "reactPlayerFilePlayer.da56ff8c.chunk.js.map": "/video-editor-portfolio/static/js/reactPlayerFilePlayer.da56ff8c.chunk.js.map",
+    "reactPlayerPreview.6ed3ac84.chunk.js.map": "/video-editor-portfolio/static/js/reactPlayerPreview.6ed3ac84.chunk.js.map",
     "787.376af779.chunk.js.map": "/video-editor-portfolio/static/js/787.376af779.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06a8eabc.css",
-    "static/js/main.6ff57463.js"
+    "static/css/main.028b115b.css",
+    "static/js/main.bfe2f8a5.js"
   ]
 }
