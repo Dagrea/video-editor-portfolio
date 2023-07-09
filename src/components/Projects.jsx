@@ -1,50 +1,31 @@
 import React from 'react';
+import ReactPlayer from 'react-player/lazy';
+import { useTranslation } from 'react-i18next';
 
 const projectsData = [
 {
-  src: 'https://www.youtube.com/embed/5LACYrvV6uU',
-  title: 'Project 1',
-  hashtags: ['fonk', 'music', 'instrumental', 'video', 'instrumental'],
+  src: 'https://youtu.be/53Q8bnRqmeI',
+  hashtags: ['promotional video', 'transitions', 'text animation', ' background music'],
 },
 {
-  src: 'https://www.youtube.com/embed/FCCCb7ZWXz4',
-  title: 'Project 2',
-  hashtags: ['fonk', 'music', 'instrumental', 'video', 'instrumental'],
+  src: 'https://youtu.be/FNuRJMy4mn0',
+  hashtags: ['introductory video', 'transitions', 'text animation', 'sound effects', 'background music'],
 },
 {
-  src: 'https://www.youtube.com/embed/kUJw2eVYznw',
-  title: 'Project 3',
-  hashtags: ['fonk', 'music', 'instrumental', 'video', 'instrumental'],
+  src: 'https://youtu.be/mvBJG_KaWM8',
+  hashtags: ['transitions', 'text animation', ' background music'],
 },
 {
-  src: 'https://www.youtube.com/embed/w_MSFkZHNi4',
-  title: 'Project 4',
-  hashtags: ['fonk', 'music', 'instrumental', 'video', 'instrumental'],
+  src: 'https://youtu.be/xtBu5TRY9C0',
+  hashtags: ['funny moments', 'roblox doors', 'video transitions', 'subtitles', 'memes'],
 },
 {
-  src: 'https://www.youtube.com/embed/srVRmB3c7co',
-  title: 'Project 5',
-  hashtags: ['fonk', 'music', 'instrumental', 'video', 'instrumental'],
+  src: 'https://youtu.be/ZQjsW7u_CVQ',
+  hashtags: ['funny moments', 'roblox evade', 'video transitions', 'subtitles', 'memes'],
 },
 {
-  src: 'https://www.youtube.com/embed/bnmAi53H520',
-  title: 'Project 6',
-  hashtags: ['fonk', 'music', 'instrumental', 'video', 'instrumental'],
-},
-{
-  src: 'https://www.youtube.com/embed/DW5Wzx_VmvM',
-  title: 'Project 7',
-  hashtags: ['fonk', 'music', 'instrumental', 'video', 'instrumental'],
-},
-{
-  src: 'https://www.youtube.com/embed/2pYyc61mS34',
-  title: 'Project 8',
-  hashtags: ['fonk', 'music', 'instrumental', 'video', 'instrumental'],
-},
-{
-  src: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-  title: 'Project 9',
-  hashtags: ['fonk', 'music', 'instrumental', 'video', 'instrumental'],
+  src: 'https://youtu.be/PXgnE0l4oPk',
+  hashtags: ['funny moments', 'roblox murder mystery', 'video transitions', 'subtitles', 'memes'],
 }
 ]
 
@@ -52,14 +33,9 @@ const Project = ({data}) => {
   return (
       <li className="video-container">
         <div className="video-responsive">
-        <iframe
-          width="560"
-          height="315"
-          src={data.src}
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          title={data.title}
+        <ReactPlayer 
+        className="video-player" 
+        url={data.src} 
         />
         </div>
         <div className="video-hashtags">
@@ -74,8 +50,10 @@ const Project = ({data}) => {
 
 const Projects = () => {
 
+  const { t } = useTranslation();
   return (
-      <div className="projects">
+      <div className="projects" id='projects'>
+      <h1>{t('portfolio.name')}</h1>
       <ul className="videos">
       {projectsData.map(project => (
         <Project data={project} />

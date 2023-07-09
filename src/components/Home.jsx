@@ -1,12 +1,15 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import { createContext } from 'react';
+import { useContext } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Home = () => {
-
+  const { t } = useTranslation();
   return (
-    <div className="home">
-      <h1>Vladyslav Taimasov from Ternopil</h1>
-      <h3> Hi! I'm Vladislav, a Videographer/Editor and Motion Graphic Designer. </h3>
-      <p>With over 3 years of strong experience in capturing, editing and producing professional material such as camera footage, dialogue, sound files, and graphics, with an in-depth understanding of motion graphics, digital software and video editing equipment.</p>
+    <div className="home" id='home'>
+      <h1>{t('home.name')}</h1>
+      <h3>{t('home.greeting')}</h3>
+      <p>{t('home.text')}</p>
       <div className="rounded_avatar"></div>
       </div>
   );
