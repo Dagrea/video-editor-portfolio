@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/video-editor-portfolio/static/css/main.b29fe17b.css",
+    "main.css": "/video-editor-portfolio/static/css/main.9b96b5c7.css",
     "main.js": "/video-editor-portfolio/static/js/main.9db87e42.js",
     "reactPlayerYouTube.js": "/video-editor-portfolio/static/js/reactPlayerYouTube.7cc15bf0.chunk.js",
     "reactPlayerSoundCloud.js": "/video-editor-portfolio/static/js/reactPlayerSoundCloud.21c13ce4.chunk.js",
@@ -16,13 +16,13 @@
     "reactPlayerFilePlayer.js": "/video-editor-portfolio/static/js/reactPlayerFilePlayer.da56ff8c.chunk.js",
     "reactPlayerPreview.js": "/video-editor-portfolio/static/js/reactPlayerPreview.6ed3ac84.chunk.js",
     "static/js/787.376af779.chunk.js": "/video-editor-portfolio/static/js/787.376af779.chunk.js",
-    "static/media/avatar.jpg": "/video-editor-portfolio/static/media/avatar.6209e3db772cad918a98.jpg",
+    "static/media/avatar.jpg": "/video-editor-portfolio/static/media/avatar.51a6edef30a3c974e242.jpg",
     "static/media/avatar1.jpg": "/video-editor-portfolio/static/media/avatar1.e8a48f41b24089da37b2.jpg",
     "static/media/weblancer.png": "/video-editor-portfolio/static/media/weblancer.555c505340473bfad0e5.png",
     "static/media/instagram.svg": "/video-editor-portfolio/static/media/instagram.4aa8347837ff2f3d6cc4.svg",
     "index.html": "/video-editor-portfolio/index.html",
     "static/media/telegram.svg": "/video-editor-portfolio/static/media/telegram.a1f24d54e716cdc2a9d5.svg",
-    "main.b29fe17b.css.map": "/video-editor-portfolio/static/css/main.b29fe17b.css.map",
+    "main.9b96b5c7.css.map": "/video-editor-portfolio/static/css/main.9b96b5c7.css.map",
     "main.9db87e42.js.map": "/video-editor-portfolio/static/js/main.9db87e42.js.map",
     "reactPlayerYouTube.7cc15bf0.chunk.js.map": "/video-editor-portfolio/static/js/reactPlayerYouTube.7cc15bf0.chunk.js.map",
     "reactPlayerSoundCloud.21c13ce4.chunk.js.map": "/video-editor-portfolio/static/js/reactPlayerSoundCloud.21c13ce4.chunk.js.map",
@@ -40,7 +40,7 @@
     "787.376af779.chunk.js.map": "/video-editor-portfolio/static/js/787.376af779.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b29fe17b.css",
+    "static/css/main.9b96b5c7.css",
     "static/js/main.9db87e42.js"
   ]
 }
