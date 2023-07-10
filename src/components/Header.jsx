@@ -19,9 +19,9 @@ const Header = () => {
   return (
     <header className="navbar">
       <div className="navbar_icons">
-        <div className="navbar_icons_instagram"/>
-        <div className="navbar_icons_weblancer"/>
-        <div className="navbar_icons_telegram"/>
+        <Link to="https://www.instagram.com/uwudarkray/" target="_blank" ><div className="navbar_icons_instagram"/></Link>
+        <Link to="https://t.me/harinay" target="_blank" ><div className="navbar_icons_weblancer"/></Link>
+        <Link to="https://www.weblancer.net/users/uwudarkray/" target="_blank" ><div className="navbar_icons_telegram"/></Link>
       </div>
       <Link smooth to="/#home"><div className="navbar_logo">Vladyslav Taimasov</div></Link>
       <input class="side-menu" type="checkbox" id="side-menu" onChange={handleChange} checked={isChecked}/>
@@ -33,8 +33,8 @@ const Header = () => {
                 <li><Link smooth to="/#projects" onClick={handleCloseMenu}>{t('menu.portfolio')}</Link></li>
                 <li><Link smooth to="/#contact" onClick={handleCloseMenu}>{t('menu.contact')}</Link></li>
                 <div className="lang">   
-                  <div className={i18n.language == 'en' ? "lang_btn active" : "lang_btn"}    onClick={() => changeLanguage('en')}>en</div >
-                  <div className={i18n.language == 'uk_UA' ? "lang_btn active" : "lang_btn"}  onClick={() => changeLanguage('uk_UA')}>ua</div >
+                  <div className={i18n.language === 'en' ? "lang_btn active" : "lang_btn"}    onClick={() => changeLanguage('en')}>en</div >
+                  <div className={i18n.language === 'uk_UA' ? "lang_btn active" : "lang_btn"}  onClick={() => changeLanguage('uk_UA')}>ua</div >
                 </div>
             </ul>    
         </nav>

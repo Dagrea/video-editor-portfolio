@@ -1,6 +1,4 @@
 import React, {useEffect} from 'react';
-import { createContext } from 'react';
-import { useContext } from 'react';
 import { useTranslation } from 'react-i18next';
 
 const Home = () => {

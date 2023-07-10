@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: y proximity;
   scroll-behavior: smooth;
 }
 * {
@@ -103,6 +103,7 @@ ul {
   padding: 30px 10px;
   margin: 20px;
   transition: all 0.5s;
+  will-change: transform;
   z-index: 10;
 }
 
@@ -122,6 +123,7 @@ ul {
   height: 100%;
   position: absolute;
   transition: all 0.5s ease-out;
+  will-change: transform;
   width: 100%;
 }
 
@@ -145,6 +147,7 @@ ul {
   background-color: #fff;
   opacity: 0.8;
   transition: max-width 0.5s 0s linear;
+  will-change: transform;
   z-index: 8;
 }
 @media (max-width: 768px) {
@@ -169,6 +172,7 @@ ul {
   height: 100vh;
   opacity: 0;
   transition: visibility 0s linear 0.5s, opacity 0.5s;
+  will-change: transform;
 }
 .menu li {
   display: block;
@@ -188,6 +192,7 @@ ul {
 .side-menu:checked ~ nav {
   max-width: 100%;
   transition: max-width 0.5s 0s linear;
+  will-change: transform;
 }
 
 .side-menu:checked ~ * .menu {
@@ -248,7 +253,6 @@ ul {
   background-size: cover; 
   background-position: center;
   float: right;
-  filter: contrast(70%);
   height: 100vh;
   width: 50%;
   height: 100%;
@@ -295,7 +299,6 @@ ul {
   background-image: url('assets/avatar1.jpg');
   background-repeat: no-repeat;
   background-size: cover; 
-  filter: contrast(70%);
   height: 10rem;
   width: 10rem;
   border-radius: 50%;

@@ -36,6 +36,7 @@ const Project = ({data}) => {
         <ReactPlayer 
         className="video-player" 
         url={data.src} 
+        controls={true}
         />
         </div>
         <div className="video-hashtags">

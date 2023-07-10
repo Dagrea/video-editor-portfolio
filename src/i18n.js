@@ -21,7 +21,7 @@ i18n
             contact: 'Contact'
           },
           home: {
-            name: 'Vladislav Taimasov from UA💙💛',
+            name: 'VIDEO MAKING ᵘᵃ💙💛',
             greeting: 'Hi, I\'m Vladislav, a videographer/editor and motion graphic designer.',
             text: 'I have more than 4 years of experience in video editing and producing professional videos, dialogues, sound files and animations, with a deep understanding of video composition, digital software and video editing equipment.'
           },
@@ -78,7 +78,7 @@ I have experience in creating 🎞
             contact: 'Контакти'
           },
           home: {
-            name: 'Владислав Таймасов з України💙💛',
+            name: 'МОНТАЖ ВІДЕО ᵘᵃ💙💛',
             greeting: 'Привіт, я Владислав, відеомейкер/монтажер та моушн-дизайнер.',
             text: 'Я маю понад 4 роки досвіду у відеомонтажі та виробництві професійних відео, діалогів, звукових файлів та анімації, з глибоким розумінням композиції відео, цифрового програмного забезпечення та обладнання для відеомонтажу.'
           },
