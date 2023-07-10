@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/video-editor-portfolio/static/css/main.a8ea4064.css",
-    "main.js": "/video-editor-portfolio/static/js/main.8277123d.js",
+    "main.css": "/video-editor-portfolio/static/css/main.638ffe01.css",
+    "main.js": "/video-editor-portfolio/static/js/main.76937c4d.js",
     "reactPlayerYouTube.js": "/video-editor-portfolio/static/js/reactPlayerYouTube.7cc15bf0.chunk.js",
     "reactPlayerSoundCloud.js": "/video-editor-portfolio/static/js/reactPlayerSoundCloud.21c13ce4.chunk.js",
     "reactPlayerVimeo.js": "/video-editor-portfolio/static/js/reactPlayerVimeo.5ae5b829.chunk.js",
@@ -22,8 +22,8 @@
     "static/media/instagram.svg": "/video-editor-portfolio/static/media/instagram.4aa8347837ff2f3d6cc4.svg",
     "index.html": "/video-editor-portfolio/index.html",
     "static/media/telegram.svg": "/video-editor-portfolio/static/media/telegram.a1f24d54e716cdc2a9d5.svg",
-    "main.a8ea4064.css.map": "/video-editor-portfolio/static/css/main.a8ea4064.css.map",
-    "main.8277123d.js.map": "/video-editor-portfolio/static/js/main.8277123d.js.map",
+    "main.638ffe01.css.map": "/video-editor-portfolio/static/css/main.638ffe01.css.map",
+    "main.76937c4d.js.map": "/video-editor-portfolio/static/js/main.76937c4d.js.map",
     "reactPlayerYouTube.7cc15bf0.chunk.js.map": "/video-editor-portfolio/static/js/reactPlayerYouTube.7cc15bf0.chunk.js.map",
     "reactPlayerSoundCloud.21c13ce4.chunk.js.map": "/video-editor-portfolio/static/js/reactPlayerSoundCloud.21c13ce4.chunk.js.map",
     "reactPlayerVimeo.5ae5b829.chunk.js.map": "/video-editor-portfolio/static/js/reactPlayerVimeo.5ae5b829.chunk.js.map",
@@ -40,7 +40,7 @@
     "787.376af779.chunk.js.map": "/video-editor-portfolio/static/js/787.376af779.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8ea4064.css",
-    "static/js/main.8277123d.js"
+    "static/css/main.638ffe01.css",
+    "static/js/main.76937c4d.js"
   ]
 }
