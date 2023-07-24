@@ -3,6 +3,11 @@ html {
   scroll-snap-type: y proximity;
   scroll-behavior: smooth;
 }
+@media (max-width: 1023px) {
+  html {
+    scroll-snap-type: none;
+  }
+}
 * {
     margin: 0;
     padding: 0;
